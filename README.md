@@ -21,6 +21,8 @@ The topics below outline what you learn in the live session. After the live sess
 Review the quiz answers and discuss HTML and CSS topics. If time permits, some students can volunteer to show their portfolio code and how it looks in the browser.  
 ## [Intro to Frontend JavaScript](#intro-to-frontend-javascript)   
 
+### What is JavaScript  
+
 - JavaScript is a popular language for web development  
 - If you're building a frontend, you're doing it in JavaScript
 - [ECMAScript 6 (ES6)](https://262.ecma-international.org/6.0/) is the latest version  
@@ -34,8 +36,28 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
   -- [Change HTML content](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_inner_html)  
   -- [Change HTML attributes](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb)  
   -- [Change CSS Style](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style)  
-  -- [Hide](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide) and [show](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show) elements  
-  -- Note that the W3Schools examples use inline styling for CSS (i.e., `style=" . . . "`) and HTML attributes for JavaScript (e.g., `onClick`). While these are okay for showing what JS can do, please do not use this approach in your web applications. Instead, use class-based styling for CSS and pure JavaScript for functionality. It's important you learn how to see the W3Schools examples (and other examples online) and translate them into code that is reusable and easier to maintain.  
+  -- [Hide](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide) and [show](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show) elements   -- Note that the W3Schools examples use inline styling for CSS (i.e., `style=" . . . "`) and HTML attributes for JavaScript (e.g., `onClick`). While these are okay for showing what JS can do, please do not use this approach in your web applications. Instead, use class-based styling for CSS and pure JavaScript for functionality. It's important you learn how to see the W3Schools examples (and other examples online) and translate them into code that is reusable and easier to maintain.  
+  
+### Where to Put JavaScript Code  
+
+- When writing JavaScript for frontend, it's best to write your code in a .js file and import it into your HTML file  
+- In your project's root folder, you should have a 'js' folder, and inside it you put your JavaScript code inside files with a .js file extension  
+- Import it using a `script` tag with the `src` attribute equal to the relative path of the .js file (e.g., `<script src="myScript.js"></script>`)  
+- The `script` tag belongs [at the bottom of your `body` tag](https://www.tutorialspoint.com/How-to-use-external-js-files-in-an-HTML-file)    
+- It is possible to put `script` tags in the `head` tag, but generally put them in the `body` 
+- If you import multiple scripts, [the order matters](https://stackoverflow.com/a/8996905) because `script` tags have access to the information in the `script` tags above it but not below it  
+- See the [discussion at the bottom of this link about external JavaScript](https://www.w3schools.com/js/js_whereto.asp)  
+- You [also can write JavaScript](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) code directly inside `script` tags at the bottom of your HTML `body` (or in the `head`), in which case you do not need to set the `src` 
+- You can also access JavaScript in HTML tag attributes, like the `onClick` attribute     
+- You will see examples online where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain  
+- You should know how to understand examples online where people write JavaScript like this in the `script` tags and HTML tags and know how to convert that code to an external JavaScript file  
+
+
+
+### How JavaScript Interacts With HTML  
+
+- 
+
 
 ## [Variables and Data Types](#variables-and-data-types)   
 
