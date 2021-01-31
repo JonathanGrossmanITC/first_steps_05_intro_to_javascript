@@ -97,32 +97,30 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 
 - JavaScript variables can hold different data types  
 - Different data types have different properties, meaning that you can do different things with different data types    
-- The data types are:  
-  -- String: zero or more text characters stored inside quotes   
+- String: zero or more text characters stored inside quotes   
     - [String definition](https://www.w3schools.com/js/js_strings.asp)  
     - [String methods](https://www.w3schools.com/js/js_string_methods.asp)    
-  -- Number: integer or decimal    
+- Number: integer or decimal    
     - [Number definition](https://www.w3schools.com/js/js_numbers.asp)  
     - [Number methods](https://www.w3schools.com/js/js_number_methods.asp)  
-  -- Boolean: true or false  
+- Boolean: true or false  
     - [Boolean definition](https://www.w3schools.com/js/js_booleans.asp)  
     - [Boolean methods](https://www.w3schools.com/jsref/jsref_obj_boolean.asp)  
-  -- Array: a list of items stored in a single variable    
+- Array: a list of items stored in a single variable    
     - [Array definition](https://www.w3schools.com/js/js_arrays.asp)  
     - [Array methods](https://www.w3schools.com/js/js_array_methods.asp)  
     - [Array sort](https://www.w3schools.com/js/js_array_sort.asp)  
     - [Array iterate](https://www.w3schools.com/js/js_array_iteration.asp)  
     - Arrays are important to understand, so here's [more about arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)  
     - Many of the things you can do with arrays, you can also do with strings  
-  -- Object: collection of key:value pairs stored in a single variable    
+- Object: collection of key:value pairs stored in a single variable    
     - [Object definition](https://www.w3schools.com/js/js_objects.asp) 
     - [Similar to JSON](https://www.w3schools.com/js/js_json.asp)  
     - An object can be more than just key:value pairs; for more discussion about this, [please see MDN's explanation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#normal_objects_and_functions)  
-  -- To see examples of the different data types, visit [W3Schools](https://www.w3schools.com/js/js_datatypes.asp)  
+- To see examples of the different data types, visit [W3Schools](https://www.w3schools.com/js/js_datatypes.asp)  
 - JavaScript variables also can be:  
   -- `undefined`: variable defined but has no value    
   -- `null`: variable doesn't exist    
   -- empty values  
  - You can use `typeof` to find the type of a variable  
  
-  
