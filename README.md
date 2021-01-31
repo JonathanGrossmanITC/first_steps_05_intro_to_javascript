@@ -24,6 +24,7 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 ### What is JavaScript  
 
 - JavaScript is a popular language for web development  
+- It is common to use JavaScript to dynamically modify HTML and CSS after the web page loads in order to change what the user sees  
 - If you're building a frontend, you're doing it in JavaScript
 - [ECMAScript 6 (ES6)](https://262.ecma-international.org/6.0/) is the latest version  
   -- When researching answers online, consider the date of the post, as more recent answers are more likely to contain the most modern syntax  
@@ -33,6 +34,7 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
   -- Do not mix and match jQuery with "vanilla" JavaScript  
 - JavaScript add functionality to your web page 
 - Seeing [examples](https://www.w3schools.com/js/js_examples.asp) is a great way to learn what you can do with JavaScript:  
+  -- [Number guessing game](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)  
   -- [Change HTML content](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_inner_html)  
   -- [Change HTML attributes](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb)  
   -- [Change CSS Style](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style)  
@@ -48,15 +50,16 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 - If you import multiple scripts, [the order matters](https://stackoverflow.com/a/8996905) because `script` tags have access to the information in the `script` tags above it but not below it  
 - See the [discussion at the bottom of this link about external JavaScript](https://www.w3schools.com/js/js_whereto.asp)  
 - You [also can write JavaScript](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) code directly inside `script` tags at the bottom of your HTML `body` (or in the `head`), in which case you do not need to set the `src` 
-- You can also access JavaScript in HTML tag attributes, like the `onClick` attribute     
-- You will see examples online where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain  
+- You can also access JavaScript in HTML tag attributes, like the `onClick` attribute, but it is [bad prcatice to do so](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#inline_javascript_handlers)     
+- You will see [examples online](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#internal_javascript) where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain  
 - You should know how to understand examples online where people write JavaScript like this in the `script` tags and HTML tags and know how to convert that code to an external JavaScript file  
-
-
 
 ### How JavaScript Interacts With HTML  
 
-- 
+- The order in which write your code matters because the browser reads your code [from top to bottom](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#javascript_running_order)  
+  -- You may see errors saying that a variable or function does not exist, and that may be because the object you reference in your code does not yet exist in the browser's memory  
+  -- You can write [comments in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#comments); comments are not read by the browser; usually, they are used as notes to developers explaining the code 
+-   
 
 
 ## [Variables and Data Types](#variables-and-data-types)   
