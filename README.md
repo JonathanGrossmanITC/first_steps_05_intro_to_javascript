@@ -53,13 +53,9 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 - You can also access JavaScript in HTML tag attributes, like the `onClick` attribute, but it is [bad prcatice to do so](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#inline_javascript_handlers)     
 - You will see [examples online](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#internal_javascript) where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain  
 - You should know how to understand examples online where people write JavaScript like this in the `script` tags and HTML tags and know how to convert that code to an external JavaScript file  
-
-### How JavaScript Interacts With HTML  
-
 - The order in which write your code matters because the browser reads your code [from top to bottom](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#javascript_running_order)  
   -- You may see errors saying that a variable or function does not exist, and that may be because the object you reference in your code does not yet exist in the browser's memory  
   -- You can write [comments in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#comments); comments are not read by the browser; usually, they are used as notes to developers explaining the code 
--   
 
 
 ## [Variables and Data Types](#variables-and-data-types)   
