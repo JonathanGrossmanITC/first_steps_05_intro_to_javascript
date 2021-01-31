@@ -93,4 +93,13 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
   -- For instance, a number stored in a variable: you can add, subtract, multiply, divide and more using the variable  
   -- Another is example is a string stored in a variable: you can use that variable to set the text of an HTML element
 
-### Data Types
+### Data Types  
+
+- JavaScript variables can hold different data types  
+- Different data types have different properties  
+- To operate on a data type, you need to know 
+string
+number
+boolean
+array
+
