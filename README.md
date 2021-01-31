@@ -38,7 +38,10 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
   -- [Change HTML content](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_inner_html)  
   -- [Change HTML attributes](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb)  
   -- [Change CSS Style](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style)  
-  -- [Hide](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide) and [show](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show) elements   -- Note that the W3Schools examples use inline styling for CSS (i.e., `style=" . . . "`) and HTML attributes for JavaScript (e.g., `onClick`). While these are okay for showing what JS can do, please do not use this approach in your web applications. Instead, use class-based styling for CSS and pure JavaScript for functionality. It's important you learn how to see the W3Schools examples (and other examples online) and translate them into code that is reusable and easier to maintain.  
+  -- [Hide](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide) and [show](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show) elements   -- Note that the W3Schools examples use inline styling for CSS (i.e., `style=" . . . "`) and HTML attributes for JavaScript (e.g., `onClick`). While these are okay for showing what JS can do, please do not use this approach in your web applications. Instead, use class-based styling for CSS and pure JavaScript for functionality. It's important you learn how to see the W3Schools examples (and other examples online) and translate them into code that is reusable and easier to maintain.
+- As you see from the examples, one common thing you do with JavaScript is access HTML elements; as you will see later, you can save the HTML elements as a variable in your JavaScript code; once saved as a variable, you can manipulate it by changing it attributes so that the browser changes what the user sees on the screen  
+- Use `console.log` to print information to the browser's console; learn about other [console commands](https://css-tricks.com/a-guide-to-console-commands/)  
+- You commonly will use the Console tab in the inspector while developing in order to understand how the data is flowing through your app    
   
 ### Where to Put JavaScript Code  
 
@@ -60,3 +63,34 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 
 ## [Variables and Data Types](#variables-and-data-types)   
 
+### Variables  
+
+- Variables are [containers for storing data](https://www.w3schools.com/js/js_variables.asp) in memory  
+- To declare a variable, use `let` for values that can change and `const` for a value that cannot be changed  
+  -- Once you save something to a variable, you can changes its value if you declared it using `let`  
+  -- You will see examples online using `var` instead of `let` and `const`; however, you should use `let` and `const` because they are the more modern approach  
+- Following your declaration (i.e., `let` or `const`), you need to name your variable  
+  -- Use camelCase
+  -- Give it a short, unique, descriptive name
+  -- Good names help your reader (i.e., future you and your coworkers) understand your code 
+  -- Function names should start with verbs  
+  -- Names for non-functional code should be nouns  
+  -- It can help to put the data type in the name  
+- Following the name, you put the value
+  -- Here is an example: `let userNameString = "ITCStaff"`
+- Once something is saved in memory, you can interact with it in your JavaScript code  
+- You can save any data type to a variable  
+- One of the objects you can save to a variable is an HTML element  
+- Here is an example of [getting an HTML element by its `id` and saving it to a variable](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)   -- The example changes the text color, but that's just one example of what you can do  
+  -- You can access any of the HTML element's attributes; it's as if the HTML element is in your JavaScript file!  
+- Common things to do with HTML elements inside JavaScript after saving it to a variable:  
+  -- Add and remove items from the `classList` to change styles, including whether an element is hidden or displayed    
+  -- Add an event listener to call a funtion only upon a certain event happening  
+  -- Enable and disable buttons  
+  -- Get the value of an input element  
+  -- Create HTML element, add `id`, add class to class list, set the textContent, and append to an HTML element  
+- Once somethng is saved as a variable, the variable represents that thing in memory, which means the variable can do the things that the underlying data is capable of 
+  -- For instance, a number stored in a variable: you can add, subtract, multiply, divide and more using the variable  
+  -- Another is example is a string stored in a variable: you can use that variable to set the text of an HTML element
+
+### Data Types
