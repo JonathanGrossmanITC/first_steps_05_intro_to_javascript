@@ -1,12 +1,12 @@
 # JavaScript Intro  
 
-Welcome to the fifth lesson! In this lesson, you review the HTML and CSS quiz and start learning JavaScript. You will briefly review the quiz questions and answers to reinforce what you learned in the first four lessons. Then, you begin learning about JavaScript.
+Welcome to the fifth lesson! In this lesson, you review the HTML and CSS quiz and start learning JavaScript. We will briefly review the quiz questions and answers to reinforce what you learned in the first four lessons. Then, we will begin learning about JavaScript.
 
-JavaScript is a programming language used in web development. Among the things you can do with JavaScript are write frontend web applications and build servers. In this First Steps program, you learn how to write frontend web pages in JavaScript. In the [ITC Fullstack Program](https://www.itc.tech), students learn more advanced frontend JavaScript techniques, how to build JavaScript frontend we applications using JavaScript libraries and frameworks, and how to write servers in JavaScript.
+JavaScript is a programming language used in web development. Among the things you can do with JavaScript are write frontend web applications and build servers. In this First Steps program, you learn how to write frontend web pages in JavaScript. In the [ITC Fullstack Program](https://www.itc.tech), students learn more advanced frontend JavaScript techniques, how to build JavaScript frontend web applications using JavaScript libraries and frameworks, and how to write servers in JavaScript.
 
 After learning in this lesson about what JavaScript is, you learn about the different data types in JavaScript. Data types are the format in which data is saved in memory. For instance, JavaScript has data type for strings, numbers, arrays, objects, and more. You need to know what the data types are and when and how to work with them.
 
-Throughout the lesson, you will see examples that demonstrate some of the JavaScript basics and will learn about resources that can guide you through the learning process. 
+Throughout the lesson, you will see examples that demonstrate some of the basics of JavaScript and learn about resources that can guide you through the learning process. 
 
 In this lesson, you learn:  
 
@@ -57,7 +57,7 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 - You can also access JavaScript in HTML tag attributes, like the `onClick` attribute, but it is [bad practice to do so](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#inline_javascript_handlers)     
 - You will see [examples online](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#internal_javascript) where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain  
 - You should know how to understand examples online where people write JavaScript like this in the `script` tags and HTML tags and know how to convert that code to an external JavaScript file  
-- The order in which write your code matters because the browser reads your code [from top to bottom](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#javascript_running_order)  
+- The order in which you write your code matters because the browser reads your code [from top to bottom](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#javascript_running_order)  
   -- You may see errors saying that a variable or function does not exist, and that may be because the object you reference in your code does not yet exist in the browser's memory  
   -- You can write [comments in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#comments); comments are not read by the browser; usually, they are used as notes to developers explaining the code 
 
