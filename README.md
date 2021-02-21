@@ -23,43 +23,42 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 
 ### What is JavaScript  
 
-- JavaScript is a popular language for web development  
+- JavaScript is a popular language for web development; if you're building a frontend, you're doing it in JavaScript
+- JavaScript adds functionality to your web page 
 - It is common to use JavaScript to dynamically modify HTML and CSS after the web page loads in order to change what the user sees  
-- If you're building a frontend, you're doing it in JavaScript
-- [ECMAScript 6 (ES6)](https://262.ecma-international.org/6.0/) is the latest version  
-  -- When researching answers online, consider the date of the post, as more recent answers are more likely to contain the most modern syntax  
-  -- You are learning what people call "vanilla" JavaScript  
-  -- JavaScript frameworks and libraries include React, Angular, Vue, and jQuery  
-  -- Although you are not learning in this course frameworks and libraries, know that they exist because it can help you sift through information online when researching answers (in particular, lookout for answers in jQuery, denoted by $ throughout the code, which can look confusingly similar to "vanilla")  
-  -- Do not mix and match jQuery with "vanilla" JavaScript  
-- JavaScript add functionality to your web page 
 - Seeing [examples](https://www.w3schools.com/js/js_examples.asp) is a great way to learn what you can do with JavaScript:  
   -- [Number guessing game](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)  
   -- [Change HTML content](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_inner_html)  
   -- [Change HTML attributes](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb)  
   -- [Change CSS Style](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style)  
-  -- [Hide](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide) and [show](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show) elements     
+  -- [Hide](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_hide) and [show](https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show) elements 
   -- Note that the W3Schools examples use inline styling for CSS (i.e., `style=" . . . "`) and HTML attributes for JavaScript (e.g., `onClick`). While these are okay for showing what JS can do, please do not use this approach in your web applications. Instead, use class-based styling for CSS and pure JavaScript for functionality. It's important you learn how to see the W3Schools examples (and other examples online) and translate them into code that is reusable and easier to maintain.
-- As you see from the examples, one common thing you do with JavaScript is access HTML elements; as you will see later, you can save the HTML elements as a variable in your JavaScript code; once saved as a variable, you can manipulate it by changing it attributes so that the browser changes what the user sees on the screen  
+- As you see from the examples, one common thing you do with JavaScript is access HTML elements; as you will see later, you can save the HTML elements as a variable in your JavaScript code; once saved as a variable, you can manipulate it by changing its attributes so that the browser changes what the user sees on the screen  
 - Use `console.log` to print information to the browser's console; learn about other [console commands](https://css-tricks.com/a-guide-to-console-commands/)  
 - You commonly will use the Console tab in the inspector while developing in order to understand how the data is flowing through your app    
+- [ECMAScript 6 (ES6)](https://262.ecma-international.org/6.0/) is the latest version of JavaScript    
+  -- When researching answers online, consider the date of the post, as more recent answers are more likely to contain the most modern syntax  
+  -- You are learning what people call "vanilla" JavaScript  
+  -- JavaScript frameworks and libraries include React, Angular, Vue, and jQuery  
+  -- Although you are not learning in this course frameworks and libraries, know that they exist because it can help you sift through information online when researching answers (in particular, lookout for answers in jQuery, denoted by $ throughout the code, which can look confusingly similar to "vanilla")  
+  -- Do not mix and match jQuery with "vanilla" JavaScript 
   
 ### Where to Put JavaScript Code  
 
 - When writing JavaScript for frontend, it's best to write your code in a .js file and import it into your HTML file  
 - In your project's root folder, you should have a 'js' folder, and inside it you put your JavaScript code inside files with a .js file extension  
-- Import it using a `script` tag with the `src` attribute equal to the relative path of the .js file (e.g., `<script src="myScript.js"></script>`)  
+- Import the .js file into your html file using a `script` tag with the `src` attribute equal to the relative path of the .js file (e.g., `<script src="myScript.js"></script>`)  
 - The `script` tag belongs [at the bottom of your `body` tag](https://www.tutorialspoint.com/How-to-use-external-js-files-in-an-HTML-file)    
 - It is possible to put `script` tags in the `head` tag, but generally put them in the `body` 
 - If you import multiple scripts, [the order matters](https://stackoverflow.com/a/8996905) because `script` tags have access to the information in the `script` tags above it but not below it  
 - See the [discussion at the bottom of this link about external JavaScript](https://www.w3schools.com/js/js_whereto.asp)  
 - You [also can write JavaScript](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage) code directly inside `script` tags at the bottom of your HTML `body` (or in the `head`), in which case you do not need to set the `src` 
 - You can also access JavaScript in HTML tag attributes, like the `onClick` attribute, but it is [bad practice to do so](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#inline_javascript_handlers)     
-- You will see [examples online](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#internal_javascript) where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain  
+- You will see [examples online](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#internal_javascript) where people write JavaScript like this in the `script` tags and HTML tags; however, it's not reusable and it can be more time consuming to maintain and inefficient for the browser   
 - You should know how to understand examples online where people write JavaScript like this in the `script` tags and HTML tags and know how to convert that code to an external JavaScript file  
 - The order in which you write your code matters because the browser reads your code [from top to bottom](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#javascript_running_order)  
   -- You may see errors saying that a variable or function does not exist, and that may be because the object you reference in your code does not yet exist in the browser's memory  
-  -- You can write [comments in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#comments); comments are not read by the browser; usually, they are used as notes to developers explaining the code 
+  -- You can write [comments in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#comments); comments are not executed by the browser; usually, they are used as notes to developers explaining the code 
 
 
 ## [Variables and Data Types](#variables-and-data-types)   
@@ -69,14 +68,14 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 - Variables are [containers for storing data](https://www.w3schools.com/js/js_variables.asp) in memory  
 - To declare a variable, use `let` for values that can change and `const` for a value that cannot be changed  
   -- Once you save something to a variable, you can changes its value if you declared it using `let`  
-  -- You will see examples online using `var` instead of `let` and `const`; however, you should use `let` and `const` because they are the more modern approach  
+  -- You will see examples online using `var` instead of `let` and `const`; however, you should use `let` and `const` because they are the more modern approaches  
 - Following your declaration (i.e., `let` or `const`), you need to name your variable  
   -- Use camelCase
   -- Give it a short, unique, descriptive name
   -- Good names help your reader (i.e., future you and your coworkers) understand your code 
   -- Function names should start with verbs  
   -- Names for non-functional code should be nouns  
-  -- It can help to put the data type in the name  
+  -- It can help to put the data type in the name (e.g., `const usersArray = []`)    
 - Following the name, you put the value
   -- Here is an example: `let userNameString = "ITCStaff"`
 - Once something is saved in memory, you can interact with it in your JavaScript code  
