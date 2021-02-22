@@ -70,14 +70,14 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
   -- Once you save something to a variable, you can changes its value if you declared it using `let`  
   -- You will see examples online using `var` instead of `let` and `const`; however, you should use `let` and `const` because they are the more modern approaches  
 - Following your declaration (i.e., `let` or `const`), you need to name your variable  
-  -- Use camelCase
-  -- Give it a short, unique, descriptive name
-  -- Good names help your reader (i.e., future you and your coworkers) understand your code 
+  -- Use camelCase  
+  -- Give it a short, unique, descriptive name  
+  -- Good names help your reader (i.e., future you and your coworkers) understand your code  
   -- Function names should start with verbs  
   -- Names for non-functional code should be nouns  
   -- It can help to put the data type in the name (e.g., `const usersArray = []`)    
-- Following the name, you put the value
-  -- Here is an example: `let userNameString = "ITCStaff"`
+- Following the name, you put the value  
+  -- Here is an example: `let userNameString = "ITCStaff"`  
 - Once something is saved in memory, you can interact with it in your JavaScript code  
 - You can save any data type to a variable  
 - One of the objects you can save to a variable is an HTML element  
