@@ -81,17 +81,17 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 - Once something is saved in memory, you can interact with it in your JavaScript code  
 - You can save any data type to a variable  
 - One of the objects you can save to a variable is an HTML element  
-- Here is an example of [getting an HTML element by its `id` and saving it to a variable](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)   -- The example changes the text color, but that's just one example of what you can do  
+- Here is an example of [getting an HTML element by its `id` and saving it to a variable](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)     -- The example changes the text color, but that's just one example of what you can do  
   -- You can access any of the HTML element's attributes; it's as if the HTML element is in your JavaScript file!  
 - Common things to do with HTML elements inside JavaScript after saving it to a variable:  
   -- Add and remove items from the `classList` to change styles, including whether an element is hidden or displayed    
   -- Add an event listener to call a function only upon a certain event happening  
   -- Enable and disable buttons  
-  -- Get the value of an input element  
-  -- Create HTML element, add `id`, add class to class list, set the textContent, and append to an HTML element  
-- Once something is saved as a variable, the variable represents that thing in memory, which means the variable can do the things that the underlying data is capable of 
+  -- Get the value of an input element   
+  -- Create HTML element, add `id`, add class to class list, set the textContent, and append to an HTML element   
+- Once something is saved as a variable, the variable represents that thing in memory, which means the variable can do the things that the underlying data is capable of  
   -- For instance, a number stored in a variable: you can add, subtract, multiply, divide and more using the variable  
-  -- Another is example is a string stored in a variable: you can use that variable to set the text of an HTML element
+  -- Another is example is a string stored in a variable: you can use that variable to set the text of an HTML element  
 
 ### Data Types  
 
