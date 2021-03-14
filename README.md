@@ -81,7 +81,8 @@ Review the quiz answers and discuss HTML and CSS topics. If time permits, some s
 - Once something is saved in memory, you can interact with it in your JavaScript code  
 - You can save any data type to a variable  
 - One of the objects you can save to a variable is an HTML element  
-- Here is an example of [getting an HTML element by its `id` and saving it to a variable](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)     -- The example changes the text color, but that's just one example of what you can do  
+- Here is an example of [getting an HTML element by its `id` and saving it to a variable](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)     
+  -- The example changes the text color, but that's just one example of what you can do   
   -- You can access any of the HTML element's attributes; it's as if the HTML element is in your JavaScript file!  
 - Common things to do with HTML elements inside JavaScript after saving it to a variable:  
   -- Add and remove items from the `classList` to change styles, including whether an element is hidden or displayed    
